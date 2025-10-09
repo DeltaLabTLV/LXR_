@@ -4,6 +4,26 @@ LXR is a model-agnostic, post-hoc framework to explain recommender systems. LXR 
 
 For additional information, please refer to the paper available at this [link](https://dl.acm.org/doi/abs/10.1145/3589334.3645560).
 
+If you use this repository in your work, please cite both of the following papers.  
+Proper citation helps support our research and acknowledges the effort behind this project.
+
+```
+@inproceedings{barkan2024counterfactual,
+  title={A counterfactual framework for learning and evaluating explanations for recommender systems},
+  author={Barkan, Oren and Bogina, Veronika and Gurevitch, Liya and Asher, Yuval and Koenigstein, Noam},
+  booktitle={Proceedings of the ACM Web Conference 2024},
+  pages={3723--3733},
+  year={2024}
+}
+
+@article{gurevitchlxr,
+  title={LXR: Learning to eXplain Recommendations},
+  author={Gurevitch, Liya and Bogina, Veronika and Barkan, Oren and Schein, Yahlly and Elisha, Yehonatan and Koenigstein, Noam},
+  journal={ACM Transactions on Recommender Systems},
+  publisher={ACM New York, NY}
+}
+```
+
 ## A general overview 
 ![LXR_diagram](https://github.com/DeltaLabTLV/LXR/blob/main/LXR_diagram.png)
 
